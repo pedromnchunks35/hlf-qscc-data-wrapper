@@ -1,7 +1,7 @@
 package wrapper
 
 import (
-	"hlf-block-explorer/db_connector/models"
+	"github.com/pedromnchunks35/hlf-qscc-data-wrapper/models"
 
 	"github.com/hyperledger/fabric-gateway/pkg/client"
 )

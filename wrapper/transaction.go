@@ -2,7 +2,8 @@ package wrapper
 
 import (
 	"fmt"
-	"hlf-block-explorer/db_connector/models"
+
+	"github.com/pedromnchunks35/hlf-qscc-data-wrapper/models"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-gateway/pkg/client"
