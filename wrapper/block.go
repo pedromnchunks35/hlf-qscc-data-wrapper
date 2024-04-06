@@ -8,6 +8,7 @@ import (
 
 func Wrap_Block_Event(_block *common.Block, _network string, _channel string) *models.Block {
 	new_block := &models.Block{}
+	new_block.Data = _block.Data.String()
 	new_block.Network = &models.Network{Ip: _network}
 	new_block.Channel = &models.Channel{Channel_name: _channel}
 	new_block.Block_number = int(_block.Header.Number)
